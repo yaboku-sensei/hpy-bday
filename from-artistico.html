@@ -134,7 +134,7 @@ span {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   color: #fff;
   -webkit-user-select: none;
   user-select: none;
@@ -143,8 +143,9 @@ span {
 <body>
 <div >
 	<button onclick="playAudio();myFunction()" type="button" class="button">CLICK HERE</button>
-	<button onclick="pauseAudio()" type="button" class="button">Pause Audio</button>
+	
 	<div id="myDIV" style="display:none">
+    <button onclick="pauseAudio()" type="button" class="button">Pause Audio</button>
     <span>
 	<div class="velas">
     <div class="fuego"></div>
@@ -314,13 +315,9 @@ span {
 
 
 
-	<br>
-		<button onclick="playAudio()" type="button" class="button">Start Audio</button>
+		<br><br><button onclick="playAudio()" type="button" class="button">Start Audio</button>
 		<button onclick="pauseAudio()" type="button" class="button">Pause Audio</button>
 		</div>
-        <div>
-        hi
-        </div>
         </div>
 
 </body>
